@@ -1,0 +1,24 @@
+{
+     "name": "multi-account-creator-backend",
+     "version": "2.0.0",
+     "description": "Multi-account creator backend",
+     "main": "server.js",
+     "scripts": {
+       "start": "node server.js"
+     },
+     "dependencies": {
+       "express": "^4.18.2",
+       "cors": "^2.8.5",
+       "puppeteer": "^21.6.1",
+       "@faker-js/faker": "^8.3.1"
+     },
+     "engines": {
+       "node": ">=18.0.0"
+     }
+   }
+```
+
+   **File 3: `.gitignore`**
+```
+   node_modules/
+   .env
